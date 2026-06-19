@@ -147,12 +147,29 @@ The TypeScript API uses camelCase field names, while Prisma maps the database co
 
 ## Screenshots
 
-Add screenshots after running the project, for example:
+### Application List
+![Application List](screenshots/S1.png)
 
-```text
-docs/screenshots/application-list.png
-docs/screenshots/add-application.png
-```
+### Add Application Form
+![Add Application](screenshots/S2.png)
+
+### Edit Application
+![Edit Application](screenshots/S3.png)
+
+### Filter by Status
+![Filter by Status](screenshots/S4.png)
+
+### Delete Confirmation
+![Delete Confirmation](screenshots/S5.png)
+
+### Search
+![Search](screenshots/S6.png)
+
+### Pagination
+![Pagination](screenshots/S7.png)
+
+### Application Detail View
+![Application Detail](screenshots/S8.png)
 
 ## Architecture Notes
 
