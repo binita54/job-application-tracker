@@ -181,6 +181,4 @@ The TypeScript API uses camelCase field names, while Prisma maps the database co
 The app is intentionally small and submission-focused. React owns UI state, form validation, loading states, and optimistic-feeling refreshes after mutations. Express exposes a REST API with Zod validation at the boundary and centralized error handling. Prisma owns schema design, migrations, and database access. The database stores snake_case columns matching the assignment, while TypeScript code uses camelCase for maintainability.
 
 ## AI Usage
-
-## AI Usage
 I used AI as a coding assistant to speed up scaffolding (project structure, boilerplate for the React UI and Express API) and to draft initial documentation. I made the architecture decisions (Prisma schema design, REST endpoint structure, validation approach with Zod), reviewed and tested all generated code, and adjusted it to match the assignment requirements before submission.
