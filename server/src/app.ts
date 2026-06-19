@@ -28,6 +28,20 @@ export function createApp() {
     response.json({ status: 'ok' });
   });
 
+  // Get dashboard statistics - total applications, counts by status
+  app.get('/stats', async (_request, response, next) => {
+    try {
+      const total = await prisma.application.count();
+      const byStatus = await prisma.application.groupBy({
+        by: ['status'],
+        _count: true
+      });
+      response.json({ total, byStatus });
+    } catch (error) {
+      next(error);
+    }
+  });
+
   app.get('/applications', async (request, response, next) => {
     try {
       const query = applicationQuerySchema.parse(request.query);

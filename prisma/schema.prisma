@@ -28,6 +28,8 @@ model Application {
   status       ApplicationStatus @default(Applied)
   appliedDate  DateTime          @map("applied_date") @db.Date
   notes        String?
+  // Track when user last updated application status
+  lastStatusUpdate DateTime?      @map("last_status_update")
   createdAt    DateTime          @default(now()) @map("created_at")
   updatedAt    DateTime          @updatedAt @map("updated_at")
 

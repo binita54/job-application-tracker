@@ -42,6 +42,11 @@ const emptyForm: FormState = {
   notes: ''
 };
 
+// Form validation helper - ensures required fields are not empty
+const validateForm = (form: FormState): boolean => {
+  return form.companyName.trim() !== '' && form.jobTitle.trim() !== '';
+};
+
 function getInitials(company: string) {
   return company
     .split(' ')
