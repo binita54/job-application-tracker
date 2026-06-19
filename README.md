@@ -156,20 +156,25 @@ The TypeScript API uses camelCase field names, while Prisma maps the database co
 ### Edit Application
 ![Edit Application](screenshots/S3.png)
 
-### Filter by Status
-![Filter by Status](screenshots/S4.png)
+### Delete 
+![Delete Confirmation](screenshots/S4.png)
 
-### Delete Confirmation
-![Delete Confirmation](screenshots/S5.png)
+### Filter by Status
+![F1](screenshots/S5.png)
+
+
+![F2](screenshots/S6.png)
+
+
+![F3](screenshots/S7.png)
 
 ### Search
-![Search](screenshots/S6.png)
+![F4](screenshots/S8.png)
+![F5](screenshots/S9.png)
 
-### Pagination
-![Pagination](screenshots/S7.png)
 
-### Application Detail View
-![Application Detail](screenshots/S8.png)
+
+
 
 ## Architecture Notes
 
