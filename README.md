@@ -182,4 +182,5 @@ The app is intentionally small and submission-focused. React owns UI state, form
 
 ## AI Usage
 
-AI was used to scaffold the project structure, generate boilerplate for the React UI and Express API, write validation and README documentation, and check the assignment requirements against the implemented feature list. Final decisions, testing, and submission details should still be reviewed before sending the GitHub link.
+## AI Usage
+I used AI as a coding assistant to speed up scaffolding (project structure, boilerplate for the React UI and Express API) and to draft initial documentation. I made the architecture decisions (Prisma schema design, REST endpoint structure, validation approach with Zod), reviewed and tested all generated code, and adjusted it to match the assignment requirements before submission.
